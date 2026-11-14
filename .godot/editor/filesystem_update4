@@ -1,2 +1,4 @@
-res://scenes/player.tscn
 res://scenes/game.tscn
+res://scenes/score_counter.gd
+res://scripts/game_manger.gd
+res://scenes/slime.tscn
