@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://bvlvaxfud8j1v" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://dxkl1h6badppn" path="res://assets/sprites/wolf_Idle.png" id="2_dqkch"]
 [ext_resource type="Texture2D" uid="uid://crl3s5ckqpr8y" path="res://assets/sprites/wolf_walk.png" id="3_qhqgy"]
+[ext_resource type="AudioStream" path="res://assets/music/running.mp3" id="running_audio"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qlg0r"]
 atlas = ExtResource("2_dqkch")
@@ -100,8 +101,14 @@ position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_jh0yq")
 animation = &"idle"
 autoplay = "run"
+modulate = Color(0.86, 0.9, 0.96, 1)
 frame_progress = 0.9980831
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=844829336]
 position = Vector2(-2, -9)
 shape = SubResource("CapsuleShape2D_iywne")
+
+[node name="RunSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("running_audio")
+volume_db = -8.0
+bus = &"SFX"
