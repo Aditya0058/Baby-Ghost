@@ -10,6 +10,7 @@
 [ext_resource type="FontFile" uid="uid://d100j448l7o2t" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="7_u5sy4"]
 [ext_resource type="PackedScene" uid="uid://c5s71pglb157y" path="res://scenes/ice_platform.tscn" id="8_vtaks"]
 [ext_resource type="PackedScene" uid="uid://c37t8qfe7o6fh" path="res://scenes/purple_slime.tscn" id="9_0tnpc"]
+[ext_resource type="AudioStream" path="res://assets/sounds/powerUp.wav" id="powerup_audio"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lnu2h"]
 texture = ExtResource("2_yqjtg")
@@ -334,6 +335,10 @@ _data = {
 [node name="Game Manager" type="Node" parent="." unique_id=598169842]
 unique_name_in_owner = true
 script = ExtResource("1_0tnpc")
+
+[node name="PowerUpSound" type="AudioStreamPlayer" parent="Game Manager"]
+stream = ExtResource("powerup_audio")
+bus = &"SFX"
 
 [node name="score_label" type="Label" parent="Game Manager" unique_id=1453214824]
 offset_left = 4120.0
