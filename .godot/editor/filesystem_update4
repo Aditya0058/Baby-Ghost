@@ -1,2 +1,5 @@
-res://scenes/player.tscn
-res://scenes/game.tscn
+res://scenes/killzone.tscn
+res://scripts/killzone.gd
+res://scripts/music.gd
+res://scripts/player.gd
+res://scripts/game_manger.gd
