@@ -48,6 +48,7 @@ height = 14.0
 script = ExtResource("1_p4tba")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=549789646]
+modulate = Color(0.72, 0.62, 0.92, 1)
 sprite_frames = SubResource("SpriteFrames_50myp")
 autoplay = "default"
 frame_progress = 0.526815
