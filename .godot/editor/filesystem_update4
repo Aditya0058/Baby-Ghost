@@ -2,3 +2,5 @@ res://scenes/game.tscn
 res://scenes/score_counter.gd
 res://scripts/game_manger.gd
 res://scenes/slime.tscn
+res://scenes/coin.tscn
+res://scenes/main_menu.tscn
