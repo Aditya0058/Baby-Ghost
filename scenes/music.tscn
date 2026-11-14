@@ -1,22 +1,22 @@
 [gd_scene format=3 uid="uid://eupj6ucpo8h4"]
 
-[ext_resource type="Script" path="res://scripts/music.gd" id="1_05ggv"]
-[ext_resource type="AudioStream" path="res://assets/music/night_bgm.mp3" id="night_bgm"]
-[ext_resource type="AudioStream" path="res://assets/music/time_for_adventure.mp3" id="time_for_adventure"]
+[ext_resource type="Script" uid="uid://ddrytwagi82hc" path="res://scripts/music.gd" id="1_05ggv"]
+[ext_resource type="AudioStream" uid="uid://b7u1ukim0fwmf" path="res://assets/music/night_bgm.mp3" id="night_bgm"]
+[ext_resource type="AudioStream" uid="uid://boadg8d4ps0k3" path="res://assets/music/time_for_adventure.mp3" id="time_for_adventure"]
 
-[node name="Music" type="Node"]
+[node name="Music" type="Node" unique_id=869100370]
 script = ExtResource("1_05ggv")
 
-[node name="Track1" type="AudioStreamPlayer" parent="."]
+[node name="Track1" type="AudioStreamPlayer" parent="." unique_id=1347294472]
 stream = ExtResource("night_bgm")
 volume_db = -3.0
 bus = &"Music"
 
-[node name="Track2" type="AudioStreamPlayer" parent="."]
+[node name="Track2" type="AudioStreamPlayer" parent="." unique_id=956192904]
 stream = ExtResource("time_for_adventure")
 volume_db = -3.0
 bus = &"Music"
 
-[node name="SwitchTimer" type="Timer" parent="."]
+[node name="SwitchTimer" type="Timer" parent="." unique_id=849263022]
 wait_time = 30.0
 autostart = true

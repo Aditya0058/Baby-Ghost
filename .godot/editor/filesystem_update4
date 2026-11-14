@@ -1,5 +1,13 @@
-res://scenes/killzone.tscn
-res://scripts/killzone.gd
-res://scripts/music.gd
-res://scripts/player.gd
+res://scenes/game.tscn
+res://scenes/score_counter.gd
 res://scripts/game_manger.gd
+res://scenes/slime.tscn
+res://scenes/coin.tscn
+res://scenes/main_menu.tscn
+res://scenes/killzone.tscn
+res://scenes/player.tscn
+res://scenes/purple_slime.tscn
+res://scripts/killzone.gd
+res://scripts/player.gd
+res://default_bus_layout.tres
+res://scenes/music.tscn
