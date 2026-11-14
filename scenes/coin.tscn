@@ -180,11 +180,11 @@ shape = SubResource("CircleShape2D_50myp")
 position = Vector2(3, -11)
 sprite_frames = SubResource("SpriteFrames_50myp")
 autoplay = "default"
-frame_progress = 0.04929785
+frame_progress = 0.344246
 
 [node name="PickupSound" type="AudioStreamPlayer2D" parent="." unique_id=616833468]
 stream = ExtResource("3_11l1o")
-bus = &"SFX"
+bus = &"coin"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1309066393]
 libraries/ = SubResource("AnimationLibrary_d14el")
