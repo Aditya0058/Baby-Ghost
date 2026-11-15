@@ -4,6 +4,8 @@
 
 - Navigate through the world, avoid your enemies, overcome obstacles, and make sure the baby ghost reaches safety.
 
+https://h-null.itch.io/baby-ghost
+
 ---
 
 *Will you be able to protect the little ghost ? and help it collect magic spirit??* 
