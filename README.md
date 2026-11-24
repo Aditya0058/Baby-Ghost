@@ -4,8 +4,13 @@
 
 - Navigate through the world, avoid your enemies, overcome obstacles, and make sure the baby ghost reaches safety.
 
-https://h-null.itch.io/baby-ghost
+Give it a try - https://h-null.itch.io/baby-ghost
 
+- Developers -
+  Aditya, Hemanshu and Swaraj
+
+- More beyond - Adding levels, thrill, adventure and much more !
+  
 ---
 
 *Will you be able to protect the little ghost ? and help it collect magic spirit??* 
