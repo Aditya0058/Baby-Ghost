@@ -69,3 +69,5 @@ func stop_running_sound() -> void:
 	if run_sound.playing:
 		run_sound.stop()
 	is_running_sound_playing = false
+	
+	

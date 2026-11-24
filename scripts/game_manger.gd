@@ -16,4 +16,3 @@ func take_damage() -> void:
 
 func update_ui() -> void:
 	pass
-
